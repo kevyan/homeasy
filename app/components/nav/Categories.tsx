@@ -40,17 +40,17 @@ const Categories = () => {
       },
       {
         key: 'sub2',
-        label: 'Navigation Two',
+        label: 'Plumbing',
         icon: <AiOutlineAppstore />,
         children: [
-          { key: '5', label: 'Option 5' },
-          { key: '6', label: 'Option 6' },
+          { key: '5', label: 'Valves' },
+          { key: '6', label: 'PVC Pipes' },
           {
             key: 'sub3',
-            label: 'Submenu',
+            label: 'ABS Pipes & Fittings',
             children: [
-              { key: 'Flooring', label: 'Flooring' },
-              { key: '8', label: 'Option 8' },
+              { key: 'Flooring', label: 'ABS Pipes' },
+              { key: '8', label: 'ABS Fittings' },
             ],
           },
         ],
@@ -60,13 +60,12 @@ const Categories = () => {
       },
       {
         key: 'sub4',
-        label: 'Navigation Three',
+        label: 'Hardware',
         icon: <AiOutlineAppstore />,
         children: [
-          { key: 'Flooring', label: 'Option 9' },
-          { key: '10', label: 'Option 10' },
-          { key: '11', label: 'Option 11' },
-          { key: '12', label: 'Option 12' },
+          { key: 'Flooring', label: 'Screws' },
+          { key: '10', label: 'Staples' },
+          { key: '11', label: 'Casters' },
         ],
       }
     ];
